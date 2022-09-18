@@ -1,0 +1,35 @@
+.container {
+  max-width: 1280px;
+  width: 90%;
+  margin: 3em auto;
+}
+
+.title {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+.description {
+  margin-bottom: 2em;
+}
+
+.lista {
+  padding-left: 3em;
+}
+
+.lista li {
+  margin-bottom: 1em;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+.image {
+  width: 400px;
+  max-width: 100%;
+  margin: 0.5em;
+}

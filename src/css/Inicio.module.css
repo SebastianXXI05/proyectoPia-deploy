@@ -1,0 +1,109 @@
+.header {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.486);
+  margin-bottom: 4em;
+  border-top: 0.1px solid rgba(255, 255, 255, 0);
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/Comuna13-fondo.webp');
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  animation-name: image-move;
+  animation-duration: 1.5s;
+  filter: blur(1px);
+}
+
+@keyframes image-move {
+  0% {
+    filter: blur(3px);
+  }
+
+  50% {
+    filter: blur(2px);
+  }
+
+  100% {
+    filter: blur(0);
+  }
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto 2em;
+  max-width: 1280px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  margin: 1.5em 0 2em;
+  font-size: 5em;
+  animation-name: move-text;
+  animation-duration: 1.5s;
+}
+
+@keyframes move-text {
+  from {
+    transform: translateX(-1em);
+  }
+
+  to {
+    text-align: center;
+  }
+}
+
+.content__link {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  color: white;
+  font-size: 1.5em;
+  background-color: var(--principal-color);
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  animation-name: move-link;
+  animation-duration: 1.5s;
+}
+
+@keyframes move-link {
+  from {
+    transform: translateX(5em);
+  }
+  
+  to {
+    transform: translateX(0);
+  }
+}
+
+.link:hover {
+  background-color: var(--secudario-color);
+}
+
+.subtitle {
+  margin: 1em 0;
+  font-size: 2.5em;
+}
+
+.paragraph {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 538px) {
+  .title {
+    font-size: calc(4em - 1vw);
+  }
+}
+
+@media (max-width: 1068px) {
+  .title {
+    margin-bottom: 0.5em;
+  }
+}
