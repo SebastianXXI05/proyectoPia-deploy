@@ -8,6 +8,7 @@ import Inicio from './components/Inicio'
 import PanelControl from './components/PanelControl'
 import ToursCat from './components/ToursCat'
 import TourDetalle from './components/TourDetalle'
+import SobreNosotros from './components/SobreNosotros'
 
 function App() {
   const [menu, setMenu] = useState(false)
@@ -25,7 +26,7 @@ function App() {
           >
             <ul className={styles.nav__items}>
               <li className={styles.nav__item}><Link onClick={activateMenu} to='/inicio'>Inicio</Link></li>
-              <li className={styles.nav__item}><Link onClick={activateMenu} to=''>Sobre Nosotros</Link></li>
+              <li className={styles.nav__item}><Link onClick={activateMenu} to='/nosotros'>Sobre Nosotros</Link></li>
               <li className={styles.nav__item}><Link onClick={activateMenu} to=''>Contactanos</Link></li>
               <li className={styles.nav__item}><Link onClick={activateMenu} to=''>Video</Link></li>
               <li className={styles.nav__item}>
@@ -54,6 +55,7 @@ function App() {
         <Route path='/inicio' element={<PanelControl />} />
         <Route path='/tours' element={<ToursCat />}/>
         <Route path='/tours/:id' element={<TourDetalle />} />
+        <Route path='/nosotros' element={<SobreNosotros />} />
       </Routes>
     </>
   )

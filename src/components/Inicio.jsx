@@ -23,6 +23,7 @@ function Inicio() {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam beatae, impedit distinctio aut illum suscipit maxime, reprehenderit pariatur, sit nesciunt laborum officia fugiat eveniet! Voluptatem inventore voluptate hic itaque rem!
         </p>
         <Tour tour={tours[0]} />
+        <Tour tour={tours[1]} />
 
         <h2 className={styles.subtitle}>Restaurantes</h2>
         <Restaurante data={restauranteDate[0]} />
