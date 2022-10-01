@@ -1,9 +1,9 @@
 import tours from '../assets/tours.json'
-import styles from '../css/ToursCat.module.css'
+import styles from '../css/ToursCategoria.module.css'
 
 import Tour from './Tour'
 
-function ToursCat() {
+export function ToursCategoria() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Tours</h1>
@@ -11,5 +11,3 @@ function ToursCat() {
     </div>
   )
 }
-
-export default ToursCat

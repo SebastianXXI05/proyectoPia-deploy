@@ -6,8 +6,8 @@ import { useState } from 'react'
 // COMPONENTES
 import Inicio from './components/Inicio'
 import PanelControl from './components/PanelControl'
-import ToursCat from './components/ToursCat'
-import TourDetalle from './components/TourDetalle'
+import { ToursCategoria } from './components/Categorias'
+import { TourDetalle } from './components/Detalles'
 import SobreNosotros from './components/SobreNosotros'
 
 function App() {
@@ -53,7 +53,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Inicio />} />
         <Route path='/inicio' element={<PanelControl />} />
-        <Route path='/tours' element={<ToursCat />}/>
+        <Route path='/tours' element={<ToursCategoria />}/>
         <Route path='/tours/:id' element={<TourDetalle />} />
         <Route path='/nosotros' element={<SobreNosotros />} />
       </Routes>

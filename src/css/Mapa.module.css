@@ -1,0 +1,14 @@
+.container {
+  width: 800px;
+  height: 500px;
+  margin: 7em auto;
+  max-width: 100%;
+  /* border: var(--principal-color) solid 4px; */
+  border-radius: 10px;
+}
+
+@media (max-width: 742px) {
+  .container {
+    height: calc(500px - 30vw)
+  }
+}

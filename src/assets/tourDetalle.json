@@ -9,6 +9,7 @@
     ],
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ipsam! Velit iste incidunt, obcaecati eos ad quibusdam dolor quisquam eum consectetur quidem. Distinctio culpa eos ab unde dolorem tenetur possimus.",
     "direction": "carrera 96#4069, Medellín, San Javier, Medellín, Antioquia",
-    "tel": "+57 3104142855"
+    "tel": "+57 3104142855",
+    "location": [6.248095, -75.622040]
   }
 ]
