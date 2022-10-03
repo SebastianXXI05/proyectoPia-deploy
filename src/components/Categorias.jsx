@@ -1,5 +1,7 @@
 import tours from '../assets/tours.json'
 import styles from '../css/ToursCategoria.module.css'
+import restarurantes from '../assets/restaurantes.json'
+import Restaurante from './Restaurante'
 
 import Tour from './Tour'
 
@@ -11,3 +13,12 @@ export function ToursCategoria() {
     </div>
   )
 }
+
+export const RestaurantesCategorias = () => {
+  return (
+    <div>
+      <h1>Restaurantes</h1>
+      {restarurantes.map(resta => <div key={restarurantes.id}><Restaurante data={resta} /></div>)}
+    </div>
+  )
+} 

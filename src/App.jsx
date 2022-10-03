@@ -6,7 +6,7 @@ import { useState } from 'react'
 // COMPONENTES
 import Inicio from './components/Inicio'
 import PanelControl from './components/PanelControl'
-import { ToursCategoria } from './components/Categorias'
+import { ToursCategoria, RestaurantesCategorias } from './components/Categorias'
 import { TourDetalle } from './components/Detalles'
 import SobreNosotros from './components/SobreNosotros'
 
@@ -34,7 +34,7 @@ function App() {
                   <summary>Categorias</summary>
                   <div className={styles.summary__items}>
                     <Link onClick={activateMenu} to='/tours'>Tours</Link>
-                    <Link onClick={activateMenu} to=''>Restaurantes</Link>
+                    <Link onClick={activateMenu} to='/restaurantes'>Restaurantes</Link>
                     <Link onClick={activateMenu} to=''>Hoteles</Link>
                   </div>
                 </details>
@@ -56,6 +56,7 @@ function App() {
         <Route path='/tours' element={<ToursCategoria />}/>
         <Route path='/tours/:id' element={<TourDetalle />} />
         <Route path='/nosotros' element={<SobreNosotros />} />
+        <Route path='/restaurantes' element={<RestaurantesCategorias />} />
       </Routes>
     </>
   )
