@@ -1,0 +1,37 @@
+.container {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  border: 3px solid var(--principal-color);
+  background-color: var(--secudario-color);
+  justify-content: flex-start;
+  max-height: 400px;
+  min-height: 220px;
+  margin-bottom: 3em;
+}
+
+.image {
+  width: 300px;
+  height: 215px;
+  max-width: 100%;
+}
+
+.items {
+  padding: 1em;
+}
+
+@media (max-width: 772px) {
+  .container {
+    overflow-y: auto;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+
+  .items {
+    width: 100%;
+    text-align: center;
+  }
+}

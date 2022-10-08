@@ -1,24 +1,36 @@
-import tours from '../assets/tours.json'
+import toursJson from '../assets/tours.json'
 import styles from '../css/ToursCategoria.module.css'
-import restarurantes from '../assets/restaurantes.json'
-import Restaurante from './Restaurante'
+import restarurantesJson from '../assets/restaurantes.json'
+import hotelesJson from '../assets/hoteles.json'
 
+//Componentes
 import Tour from './Tour'
+import Restaurante from './Restaurante'
+import Hotel from './Hotel'
 
 export function ToursCategoria() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Tours</h1>
-      {tours.map(tour => <div key={tour.id}><Tour tour={tour} /></div>)}
+      {toursJson.map(tour => <div key={tour.id}><Tour tour={tour} /></div>)}
     </div>
   )
 }
 
 export const RestaurantesCategorias = () => {
   return (
-    <div>
-      <h1>Restaurantes</h1>
-      {restarurantes.map(resta => <div key={restarurantes.id}><Restaurante data={resta} /></div>)}
+    <div className={styles.container}>
+      <h1 className={styles.title}>Restaurantes</h1>
+      {restarurantesJson.map(resta => <div key={resta.id}><Restaurante data={resta} /></div>)}
     </div>
   )
 } 
+
+export const HotelesCategorias = () => {
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.title}>Hoteles</h1>
+      {hotelesJson.map(data => <div key={data.id}><Hotel data={data} /></div>)}
+    </div>
+  )
+}

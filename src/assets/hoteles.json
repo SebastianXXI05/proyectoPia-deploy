@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "title": "Hotel Cabo de la Vela",
+    "stars": "Hotel 3 estrellas",
+    "tel": "304 5366921",
+    "image": "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/14/73/1473499_v6.jpeg"
+  },
+  {
+    "id": 1,
+    "title": "TRYP Medellín",
+    "stars": "Hotel 4 estrellas",
+    "tel": "44443338",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/48/6e/43/jacuzzi--v13256671.jpg?w=700&h=-1&s=1"
+  }
+]
