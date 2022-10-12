@@ -1,0 +1,17 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1280px;
+  margin-top: 3em;
+}
+.titulo {
+  color: red;
+}
+
+.parrafo {
+  color: aqua;
+}
+
+.imagen {
+  border-radius: 20px;
+}

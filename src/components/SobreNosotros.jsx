@@ -1,6 +1,7 @@
+import styles from '../css/SobreNosotros.module.css'
 function SobreNosotros() {
     return (
-        <div>
+        <div className={styles.container}>
             <h1>¿Quienes somos?</h1>
             <p>Obten información relevante acerca de como contactar a los creadores de 
               "Conoce la comuna 13" y nuestas redes sociales en las q puedes seguirnos y obtener información de nuevos destinos</p>
