@@ -7,6 +7,7 @@ import hotelesJson from '../assets/hoteles.json'
 import Tour from './Tour'
 import Restaurante from './Restaurante'
 import Hotel from './Hotel'
+import Filtrar from './Filtrar'
 
 export function ToursCategoria() {
   return (
@@ -20,8 +21,11 @@ export function ToursCategoria() {
 export const RestaurantesCategorias = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Restaurantes</h1>
-      {restarurantesJson.map(resta => <div key={resta.id}><Restaurante data={resta} /></div>)}
+      <Filtrar />
+      <div className={styles.container__result}>
+        <h1 className={styles.title}>Restaurantes</h1>
+        {restarurantesJson.map(resta => <div key={resta.id}><Restaurante data={resta} /></div>)}
+      </div>
     </div>
   )
 } 

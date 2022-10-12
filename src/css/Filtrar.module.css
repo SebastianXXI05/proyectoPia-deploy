@@ -1,0 +1,18 @@
+.container {
+  background-color: var(--secudario-color);
+  width: 100%;
+  color: white;
+  margin: 2em 0;
+  min-height: 18.75em;
+  padding: 0.5em;
+  border: 1px solid var(--principal-color);
+}
+
+@media (min-width: 1242px) {
+  .container {
+    position: relative;
+    top: calc(9em + 6px);
+    margin-right: 1em;
+    width: 20em;
+  }
+}
