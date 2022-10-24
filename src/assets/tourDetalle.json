@@ -11,5 +11,17 @@
     "direction": "carrera 96#4069, Medellín, San Javier, Medellín, Antioquia",
     "tel": "+57 3104142855",
     "location": [6.248095, -75.622040]
+  },
+
+  {
+    "id": 1,
+    "title": "Zippy tour comuna 13",
+    "images":[
+      "https://image.jimcdn.com/app/cms/image/transf/none/path/s19dfe4d0c40cbc76/backgroundarea/i6145765df3d7d024/version/1621497647/image.jpg"
+    ],
+    "description": "We would like to give you a real experience full of urban art, dance and amazing stories where you will be one of the witnesses and part of this transformation.You will have a local guide who will accompany you around different places in one of the best Comunas in Medellin, for years Comuna 13 was considered one of the most dangerous areas in the city and Colombia but today is an awesome example of change.",
+    "direction": "Medellín, San Javier, Medellín, Antioquia",
+    "Tel": "3148787775",
+    "location":[6.2567657305498106, -75.61380160326236]
   }
 ]
