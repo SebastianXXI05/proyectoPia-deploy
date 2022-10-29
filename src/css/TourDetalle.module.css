@@ -7,6 +7,7 @@
 .title {
   font-size: 3em;
   margin-bottom: 1em;
+  color: var(--principal-color);
 }
 
 .description {
@@ -32,4 +33,5 @@
   width: 400px;
   max-width: 100%;
   margin: 0.5em;
+  border: 3px solid var(--principal-color);
 }

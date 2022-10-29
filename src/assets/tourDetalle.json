@@ -7,7 +7,7 @@
       "https://imgs.search.brave.com/8Vm0xTprdYmnrCdxO73GfyiQyauB1jF_blVuCS1wXTU/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5J/NVo4VmsxMmF6Z18x/Y1ozbndPSGFnSGFF/OCZwaWQ9QXBp",
       "https://imgs.search.brave.com/QGlkJUuk-DKSh4E7lwKfQwFjrDuEkykc9tgXUOmgX6A/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5x/MFRicUF5ZGM1ZzBt/VDRQODhVbXdnSGFG/aiZwaWQ9QXBp"
     ],
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, ipsam! Velit iste incidunt, obcaecati eos ad quibusdam dolor quisquam eum consectetur quidem. Distinctio culpa eos ab unde dolorem tenetur possimus.",
+    "description": "Vea el arte callejero del barrio de la Comuna 13 de Medellín con un guía local al reservar este tour grupal. Aprenderá cómo el vecindario se transformó de uno de los lugares más peligrosos de la ciudad a una próspera atracción turística mientras camina por el área. También verá todo tipo de arte callejero y tendrá la oportunidad de interactuar con artistas locales y vendedores de bocadillos",
     "direction": "carrera 96#4069, Medellín, San Javier, Medellín, Antioquia",
     "tel": "+57 3104142855",
     "location": [6.248095, -75.622040]
@@ -16,12 +16,42 @@
   {
     "id": 1,
     "title": "Zippy tour comuna 13",
-    "images":[
-      "https://image.jimcdn.com/app/cms/image/transf/none/path/s19dfe4d0c40cbc76/backgroundarea/i6145765df3d7d024/version/1621497647/image.jpg"
+    "images": [
+      "https://admin.freetour.com/images/tours/1687/zippy-tour-comuna-13-55.jpg",
+      "https://www.labitacoradecarlosyeli.com/wp-content/uploads/2019/11/Comuna-13-MEDELL%C3%8DN-Graffiti-tour-4K-Cabezote.jpg",
+      "https://imgs.search.brave.com/QGlkJUuk-DKSh4E7lwKfQwFjrDuEkykc9tgXUOmgX6A/rs:fit:632:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5x/MFRicUF5ZGM1ZzBt/VDRQODhVbXdnSGFG/aiZwaWQ9QXBp"
     ],
-    "description": "We would like to give you a real experience full of urban art, dance and amazing stories where you will be one of the witnesses and part of this transformation.You will have a local guide who will accompany you around different places in one of the best Comunas in Medellin, for years Comuna 13 was considered one of the most dangerous areas in the city and Colombia but today is an awesome example of change.",
-    "direction": "Medellín, San Javier, Medellín, Antioquia",
-    "Tel": "3148787775",
-    "location":[6.2567657305498106, -75.61380160326236]
+    "description": "The best tour in Comuna 13, give us the opportunity to give you a unique and real experience with local guides, where you will be able to know part of the past and the present full of art and transformation",
+    "direction": "San Javier, Medellín, San Javier, Medellín, Antioquia",
+    "tel": "+57 314 8787775",
+    "location": [6.256328, -75.613630]
+  },
+
+  {
+    "id": 2,
+    "title": "Recorrido sobre Pablo y la Comuna 13 con teleférico",
+    "images": [
+      "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/0c/08/54.jpg",
+      "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/0c/08/57.jpg",
+      "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/0c/08/5a.jpg"
+    ],
+    "description": "Concéntrese en la vida y los tiempos de Pablo Escobar y la Comuna 13 en esta excursión privada de Medellín. Reservar una excursión privada significa que recibirá atención personalizada y podrá disfrutar de un itinerario flexible, moviéndose a su propio ritmo a través de las atracciones. Tendrá tiempo de sobra para hacer preguntas a su guía sobre la historia, cultura, arquitectura y arte de la ciudad.",
+    "direction": "San Javier, Medellín, San Javier, Medellín, Antioquia",
+    "tel": "NONE",
+    "location": [6.255727, -75.619020]
+  },
+
+  {
+    "id": 3,
+    "title": "Sag Tour Medellin. Recorrido por los grafiti de la Comuna 13",
+    "images": [
+      "https://media.tacdn.com/media/attractions-splice-spp-674x446/0f/aa/62/94.jpg",
+      "https://www.sagtourmedellin.com/wp-content/uploads/2022/06/comuna-trece.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnRR57I3hXtGjYm--GPEooMm7qNziTmEtq-A&usqp=CAU"
+    ],
+    "description": "Sumérgete en la cultura y el arte de la Comuna 13 de Medellín en este recorrido urbano. Usted y su grupo privado viajarán con un guía dedicado, que responderá todas sus preguntas y adaptará su itinerario a sus intereses. Aprende sobre la arquitectura local, el arte callejero y el graffiti y toma muchas fotos geniales.",
+    "direction": "Carrera 109# #38-17, Veinte De Julio, Medellín, San Javier, Medellín, Antioquia",
+    "tel": "+57 300 2084130",
+    "location": [6.25058435056454, -75.62171056135976]
   }
 ]
