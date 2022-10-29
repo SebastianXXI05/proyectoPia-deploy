@@ -10,6 +10,7 @@ import { ToursCategoria, RestaurantesCategorias, HotelesCategorias } from './com
 import { TourDetalle } from './components/Detalles'
 import SobreNosotros from './components/SobreNosotros'
 import Contactanos from './components/Contactanos'
+import { RestauranteDetalle } from './components/Detalles'
 
 function App() {
   const [menu, setMenu] = useState(false)
@@ -60,6 +61,7 @@ function App() {
         <Route path='/restaurantes' element={<RestaurantesCategorias />} />
         <Route path='/hoteles' element={<HotelesCategorias />} />
         <Route path='/contactanos' element={<Contactanos />} />
+        <Route path='/restaurantes/:id' element={<RestauranteDetalle />} />
       </Routes>
     </>
   )

@@ -22,6 +22,17 @@
   margin-bottom: 1em;
 }
 
+.subtitle {
+  margin-bottom: 0.8em;
+  font-size: 1.5em;
+  color: var(--principal-color);
+}
+
+.link {
+  color: rgb(49, 78, 158);
+  font-weight: bold;
+}
+
 .images {
   display: flex;
   flex-wrap: wrap;

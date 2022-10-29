@@ -3,7 +3,7 @@ import styles from '../css/Restaurante.module.css'
 
 function Restaurante({ data }) {
   return (
-    <Link className={styles.container}>
+    <Link to={`/restaurantes/${data.id}`} className={styles.container}>
       <img className={styles.image} src={data.image} alt={data.title + ' image'} />
       <div className={styles.items}>
         <h2>{data.title}</h2>
