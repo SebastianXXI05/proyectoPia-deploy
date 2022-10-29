@@ -1,4 +1,4 @@
-import styles from '../css/contactanos.module.css'
+import styles from '../css/Contactanos.module.css'
 function Contactanos() {
   return (
     <div className={styles.container}>

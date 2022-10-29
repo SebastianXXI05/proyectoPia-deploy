@@ -9,7 +9,7 @@ import PanelControl from './components/PanelControl'
 import { ToursCategoria, RestaurantesCategorias, HotelesCategorias } from './components/Categorias'
 import { TourDetalle } from './components/Detalles'
 import SobreNosotros from './components/SobreNosotros'
-import Contactanos from './components/contactanos'
+import Contactanos from './components/Contactanos'
 
 function App() {
   const [menu, setMenu] = useState(false)

@@ -2,9 +2,11 @@ import { Link } from 'react-router-dom'
 import styles from '../css/Inicio.module.css'
 import tours from '../assets/tours.json'
 import restauranteDate from '../assets/restaurantes.json'
+import hotelData from '../assets/hoteles.json'
 
 import Restaurante from './Restaurante'
 import Tour from './Tour'
+import Hotel from './Hotel'
 
 function Inicio() {
   return (
@@ -18,15 +20,17 @@ function Inicio() {
         </div>
       </div>
       <div className={styles.container}>
-        <h2 className={styles.subtitle}>Conoce a través de tours:</h2>
-        <p className={styles.paragraph}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam beatae, impedit distinctio aut illum suscipit maxime, reprehenderit pariatur, sit nesciunt laborum officia fugiat eveniet! Voluptatem inventore voluptate hic itaque rem!
-        </p>
+        <h2 className={styles.subtitle}>Conoce a través de Tours:</h2>
         <Tour tour={tours[0]} />
         <Tour tour={tours[1]} />
 
-        <h2 className={styles.subtitle}>Restaurantes</h2>
+        <h2 className={styles.subtitle}>Encuentra Restaurantes: </h2>
         <Restaurante data={restauranteDate[0]} />
+        <Restaurante data={restauranteDate[3]} />
+
+        <h2 className={styles.subtitle}>Encuentra Hoteles: </h2>
+        <Hotel data={hotelData[0]} />
+        <Hotel data={hotelData[1]} />
       </div>
     </main>
   )
