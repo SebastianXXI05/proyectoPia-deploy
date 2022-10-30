@@ -33,6 +33,12 @@
   font-weight: bold;
 }
 
+.special {
+  color: var(--principal-color);
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
 .images {
   display: flex;
   flex-wrap: wrap;

@@ -7,9 +7,8 @@ import { useState } from 'react'
 import Inicio from './components/Inicio'
 import PanelControl from './components/PanelControl'
 import { ToursCategoria, RestaurantesCategorias, HotelesCategorias } from './components/Categorias'
-import { TourDetalle } from './components/Detalles'
+import { TourDetalle, RestauranteDetalle, HotelesDetalles } from './components/Detalles'
 import SobreNosotros from './components/SobreNosotros'
-import { RestauranteDetalle } from './components/Detalles'
 
 function App() {
   const [menu, setMenu] = useState(false)
@@ -59,6 +58,7 @@ function App() {
         <Route path='/restaurantes' element={<RestaurantesCategorias />} />
         <Route path='/hoteles' element={<HotelesCategorias />} />
         <Route path='/restaurantes/:id' element={<RestauranteDetalle />} />
+        <Route path='/hoteles/:id' element={<HotelesDetalles />}/>
       </Routes>
     </>
   )
