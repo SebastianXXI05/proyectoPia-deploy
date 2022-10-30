@@ -34,23 +34,29 @@ function SobreNosotros() {
                 <p>conoce la comuna 13 se originó como un proyecto diseñado por un equipo de estudiantes que tenían como objetivo lograr que se pudiera brindar información concreta y relevante acerca de la comuna 13.</p>
                 <p>La pániga Web con financiamiento clasificado, el proyecto empezó a mitad del año 2022 y será lanzada proximamente en un futuro indefinido. </p>
               </div>
-              <div className={styles.espacio}>
-                <h1 className={styles.title}>Contactanos</h1>
-                <p>A continuación podras encontrar las redes sociales en las que podrdas informarte acerca de nuestra pagina web y la información más importante que podras encontrar</p>
+              <div>
+                <h1>Contáctenos</h1>
+                <p>A continuación podrás encnotrar información relevante acerda de como puedes contactanos y seguirnos</p>
+                <ul>
+                  <li>Consultas generales: <a href="#">comunitythirteen@gmail.com</a></li>
+                  <li>Número Tel: 3012102345</li>
+                </ul>
+                <h2>Comentarios</h2>
+                <p>Para comentarios o consultas sobre el sitio web (no sobre su contenido), envíe un correo electrónico a <a href="#">comunitythirteen@gmail.com</a> Si desea contactar a un desarrollador y enviar un comentario.</p>
               </div>
               <div>
-             <h2 className={styles.title}>Redes Sociales</h2>
+                <h1>Síganos</h1>
+                <p>Hay muchas formas de ser parte de la comunidad de WWW.conocelacomuna13.com y colaborar con nosotros, desde comentar los articulos hasta seguirnos en Twiter y/o Facebook, entre otros.</p>
+                <h2>Redes sociales</h2>
+                <p>Puede encontrarnos, y a nuestras noticias, opiniones y análisis, en Facebook yTwiter. Es su oportunidad de informarse y decidir visitar la comuna 13 de Medellín.</p>
                 <ul>
-                  <li><a href="#">facebook</a></li>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">Twiter</a></li>
+                  <li>Twiter:</li>
+                  <li>Facebook:</li>
+                  <li>Instagram:</li>
+                  <li>Google:</li>
                 </ul>
               </div>
-              <div>
-                <h3 className={styles.title}>contactanos de una manera más privada</h3>
-                <p>Mediante Whattsapp: **********</p>
-                <p>Mediante gmail: <a href="#"></a></p>
-              </div>
+              
         </div>
       
     )
