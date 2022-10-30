@@ -22,7 +22,7 @@ function App() {
       {/* header terminado */}
       <header className={styles.header}>
         <div className={styles.container}>
-        <Link id={idHeader} to='/' onClick={menu ? activateMenu : null} className={styles.title}>CN 13</Link>
+        <Link id={idHeader} to='/' onClick={menu ? activateMenu : null} className={styles.title}>CM 13</Link>
           <nav className={styles.nav}
           style={menu ? {top: '80px'} : {top: '-100%'}}
           >

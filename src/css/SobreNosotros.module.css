@@ -3,15 +3,13 @@
   width: 90%;
   max-width: 1280px;
   margin-top: 3em;
-}
-.titulo {
-  color: red;
+  margin-bottom: 2em;
 }
 
-.parrafo {
-  color: aqua;
+.espacio {
+  margin-bottom: 1em;
 }
 
-.imagen {
-  border-radius: 20px;
+.title {
+  margin-bottom: 5px;
 }
