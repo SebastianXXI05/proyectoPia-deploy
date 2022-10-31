@@ -62,12 +62,15 @@ export function HotelesDetalles() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>{data.title}</h1>
+      <p className={styles.description}>{data.description}</p>
+      <p className={styles.description}><strong>Telefono:</strong> {data.tel}</p>
+      <p className={styles.description}><strong>Dirección:</strong> {data.direction}</p>
       <strong className={styles.special}>Hotel: {data.estrellas}</strong>
       <div className={styles.images}>
         {data.images.map((image, i) => <img className={styles.image} key={i} src={image} alt={data.title} />)}
       </div>
-      <h2 className={styles.subtitle}>Social</h2>
-
+      <h2 className={styles.subtitle}>Mas Información</h2>
+      <p className={styles.description}>Redes Sociales: </p>
       <ul className={styles.lista}>
         {
           data.social.map((social, i) => {
@@ -77,6 +80,7 @@ export function HotelesDetalles() {
           })
         }
       </ul>
+      <Mapa location={data.location} nombre={data.title} />
     </div>
   )
 }

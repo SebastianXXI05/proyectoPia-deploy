@@ -28,11 +28,12 @@ function PanelControl() {
 
         <h2 className={styles.title}>Mejores Restaurantes</h2>
         <Restaurante data={restauranteJSON[0]} />
-        <Restaurante data={restauranteJSON[1]} />
+        <Restaurante data={restauranteJSON[2]} />
 
         <h2 className={styles.title}>Hoteles Destacados</h2>
         <Hotel data={hotelesJson[0]} />
         <Hotel data={hotelesJson[1]} />
+        <div>.</div>
       </div>
     </div>
   )

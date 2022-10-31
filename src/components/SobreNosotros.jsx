@@ -2,10 +2,10 @@ import styles from '../css/SobreNosotros.module.css'
 function SobreNosotros() {
     return (
         <div className={styles.container}>
-            <h1>Sobre Nosotros</h1>
+            <h1 className={styles.title}>Sobre Nosotros</h1>
             <p>Conoce la comuna 13 es la página que te ofrece información sobre los destinos que te esperan, siendo tú alguien que desea ir a visitar esta hermosa comuna de Medellín será aquí donde encontrarás la información más relevante acerca de los destinos turisticos como tours, restaurantes y hoteles, además de las recomendaciones que te servirán cuando decidas visitar la comuna 13. ¡Animate a conocer y disfrutar lo que te ofrece este destino turistico!   </p>
               <div className={styles.espacio}>
-                <h1 className={styles.title}>Acerca de nuestra visión</h1>
+                <h1 className={styles.subtitle}>Acerca de nuestra visión</h1>
                 <p>Nuestro objetivo es tener una gran participación informativa acerca de todo lo que la comuna 13 puede ofecerle a los turistas que deseen disfrutar una grata experiencia. Nos hemos comprometido a ser una fuente relevante de información de los destinos turisticos que ofrece la comuna 13 de Medellín. 
                 </p>
               </div>
@@ -35,22 +35,25 @@ function SobreNosotros() {
                 <p>La pániga Web con financiamiento clasificado, el proyecto empezó a mitad del año 2022 y será lanzada proximamente en un futuro indefinido. </p>
               </div>
               <div className={styles.espacio}>
-                <h2 className={styles.title}>Contactanos</h2>
+                <h1 className={styles.title}>Contactanos</h1>
                 <p>A continuación podras encontrar las redes sociales en las que podrdas informarte acerca de nuestra pagina web y la información más importante que podras encontrar</p>
               </div>
               <div>
-             <h2 className={styles.title}>Redes Sociales</h2>
+                <h1>Contáctenos</h1>
+                <p>A continuación podrás encnotrar información relevante acerda de como puedes contactanos y seguirnos</p>
                 <ul>
-                  <li><a href="#">facebook</a></li>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">Twiter</a></li>
+                  <li>Consultas generales: <a href="#">comunitythirteen@gmail.com</a></li>
+                  <li>Número Tel: 3012102345</li>
                 </ul>
+                <h2>Comentarios</h2>
+                <p>Para comentarios o consultas sobre el sitio web (no sobre su contenido), envíe un correo electrónico a <a href="#">comunitythirteen@gmail.com</a> Si desea contactar a un desarrollador y enviar un comentario.</p>
               </div>
               <div>
-                <h2 className={styles.title}>contactanos de una manera más privada</h2>
+                <h3 className={styles.title}>contactanos de una manera más privada</h3>
                 <p>Mediante Whattsapp: **********</p>
                 <p>Mediante gmail: <a href="#"></a></p>
               </div>
+              
         </div>
       
     )
