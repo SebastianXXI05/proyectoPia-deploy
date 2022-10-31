@@ -9,3 +9,12 @@
 .espacio {
   margin-bottom: 2em;
 }
+
+.title {
+  color: var(--principal-color);
+  margin: 1em 0;
+}
+
+.ul {
+  padding-left: 2em;
+}

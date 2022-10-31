@@ -9,6 +9,7 @@ import PanelControl from './components/PanelControl'
 import { ToursCategoria, RestaurantesCategorias, HotelesCategorias } from './components/Categorias'
 import { TourDetalle, RestauranteDetalle, HotelesDetalles } from './components/Detalles'
 import SobreNosotros from './components/SobreNosotros'
+import Video from './components/Video'
 
 function App() {
   const [menu, setMenu] = useState(false)
@@ -27,7 +28,7 @@ function App() {
             <ul className={styles.nav__items}>
               <li className={styles.nav__item}><Link onClick={activateMenu} to='/inicio'>Inicio</Link></li>
               <li className={styles.nav__item}><Link onClick={activateMenu} to='/nosotros'>Sobre Nosotros</Link></li>
-              <li className={styles.nav__item}><Link onClick={activateMenu} to=''>Video</Link></li>
+              <li className={styles.nav__item}><Link onClick={activateMenu} to='/video'>Video</Link></li>
               <li className={styles.nav__item}>
                 <details className={styles.summary}>
                   <summary>Categorias</summary>
@@ -59,6 +60,7 @@ function App() {
         <Route path='/hoteles' element={<HotelesCategorias />} />
         <Route path='/restaurantes/:id' element={<RestauranteDetalle />} />
         <Route path='/hoteles/:id' element={<HotelesDetalles />}/>
+        <Route path='/video' element={<Video />}/>
       </Routes>
     </>
   )
