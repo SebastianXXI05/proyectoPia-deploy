@@ -2,10 +2,10 @@ import styles from '../css/SobreNosotros.module.css'
 function SobreNosotros() {
     return (
         <div className={styles.container}>
-            <h1>Sobre Nosotros</h1>
+            <h1 className={styles.title}>Sobre Nosotros</h1>
             <p>Conoce la comuna 13 es la página que te ofrece información sobre los destinos que te esperan, siendo tú alguien que desea ir a visitar esta hermosa comuna de Medellín será aquí donde encontrarás la información más relevante acerca de los destinos turisticos como tours, restaurantes y hoteles, además de las recomendaciones que te servirán cuando decidas visitar la comuna 13. ¡Animate a conocer y disfrutar lo que te ofrece este destino turistico!   </p>
               <div className={styles.espacio}>
-                <h1 className={styles.title}>Acerca de nuestra visión</h1>
+                <h1 className={styles.subtitle}>Acerca de nuestra visión</h1>
                 <p>Nuestro objetivo es tener una gran participación informativa acerca de todo lo que la comuna 13 puede ofecerle a los turistas que deseen disfrutar una grata experiencia. Nos hemos comprometido a ser una fuente relevante de información de los destinos turisticos que ofrece la comuna 13 de Medellín. 
                 </p>
               </div>

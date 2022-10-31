@@ -6,6 +6,16 @@
   margin-bottom: 2em;
 }
 
+.title {
+  margin: 1em 0;
+  color: var(--principal-color);
+}
+
+.subtitle {
+  color: var(--secudario-color);
+  margin: 1em 0;
+}
+
 .espacio {
   margin-bottom: 2em;
 }

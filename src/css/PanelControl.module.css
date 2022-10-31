@@ -1,14 +1,13 @@
 .main_container {
   background-color: rgba(0, 0, 0, 0.685);
-  /* background: rgb(180,156,58); */
-  /* background: linear-gradient(11deg, rgba(180, 156, 58, 0.5) 0%, rgba(253,164,29,0.5) 38%, rgba(199,39,28,0.5) 88%); */
   height: min-content;
   position: relative;
 }
 
 .main_container::before {
   content: '';
-  background-image: url('../assets/fondo-inicio.jpg');
+  /* background-image: url('../assets/fondo-inicio.jpg'); */
+  background-image: url('../assets/escaleras-fondo.gif');
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -18,33 +17,27 @@
   filter: blur(2px);
 }
 
-/* .main_container::after {
-  content: '';
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  z-index: 1;
-} */
-
 .container {
+  border-top: 0.1px solid rgba(0, 0, 0, 0);
   width: 90%;
   margin: 0 auto;
   max-width: 1280px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
   height: 100%;
 }
 
 .title {
-  text-align: center;
+  /* text-align: center; */
   font-size: 3em;
   margin: 1.5em 0 1em;
-  color: white;
+  color: var(--principal-color);
 }
 
-.ul {
+.ul{
   margin-bottom: 1em;
+  margin-left: 2.8em;
 }
 
 .items {
